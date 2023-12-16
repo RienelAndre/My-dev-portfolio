@@ -1,0 +1,50 @@
+body {
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+}
+
+.slider-container {
+    width: 900px;
+    height: auto; /* Set the height as per your design */
+    overflow: hidden;
+    display: flex;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slider-item {
+    min-width: 900px;
+    flex: 0 0 auto; /* Allow items to shrink if needed */
+  }
+
+  .projects {
+    height: auto;
+    width: 800px;
+  }
+
+.img {
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.2);
+}
+.head {
+  font-size: 30px;
+  background-color: rgba(0, 0, 0,0.5);
+  margin-top: 10px;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.title {
+  font-size: 25px;
+  background-color: rgba(0, 0, 0,0.5);
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
